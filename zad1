@@ -1,0 +1,7 @@
+imie = str(input("Jak masz na imię?: "))
+wiek = int(input("Ile masz lat?: "))
+
+if wiek <= 32:
+    print(f"Mów mi python, mam 32 lat. Witaj w moim świecie {imie}. Jesteś młodszy ode mnie.")
+else:
+    print(f"Mów mi python, mam 32 lat. Witaj w moim świecie {imie}. Jesteś starszy ode mnie.")
